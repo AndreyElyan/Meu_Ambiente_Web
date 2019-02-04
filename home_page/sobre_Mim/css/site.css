@@ -1,0 +1,38 @@
+ body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color:white;
+
+ }
+main h1 {
+    font-size: 50px;
+    color:#00bac6;
+    background-color:#252323;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    
+}
+h2 {
+    color:#09a1a7dc;
+    font-size: 30px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.rodape_principal {
+    background-color: #252323;
+    color: #00bac6;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+blockquote {
+    background-color: #D9E5E3
+} 
+.nav_principal {
+    background-color: #252323; 
+}
+.nav_links             {
+    color: #00bac6;
+    font-style: normal;
+}  
