@@ -1,15 +1,26 @@
  body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color:white;
-
- }
-main h1 {
-    font-size: 50px;
-    color:#00bac6;
-    background-color:#252323;
+    line-height:1.5;
+}
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+aside {
+    text-align: center;
+}
+ h1 {
+     padding: 24px 
+    }
+ main h1 {
+    font-size: 60px;
+    color: #00bac6;
+    background-color: #252323;
     text-align: center;
     font-family: "Open Sans Condensed", sans-serif;
-    
+    padding: 11px;
+    margin: 0 auto;
 }
 h2 {
     color:#09a1a7dc;
@@ -17,9 +28,21 @@ h2 {
     font-family: "Open Sans Condensed", sans-serif;
 }
 p {
+    margin: 20px 0;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+}
+main div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+
+}
+div {
+    width: 720px;
+    margin: auto;
 }
 .rodape_principal {
     background-color: #252323;
@@ -27,12 +50,29 @@ p {
     font-family: "Open Sans Condensed", sans-serif;
 }
 blockquote {
-    background-color: #D9E5E3
+    background-color: #D9E5E3;
+    border: 5px solid #c2ccca;
+    padding: 16px;
+    margin: 20px 40px;
+    width: 183px;
 } 
 .nav_principal {
-    background-color: #252323; 
+    background-color: #252323;
+    text-decoration: none;
 }
 .nav_links             {
     color: #00bac6;
     font-style: normal;
-}  
+    text-decoration: none;
+}
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
